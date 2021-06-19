@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Erkam Kolejleri</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#erkam">
+            <h1><span>E</span>R<span>KA</span>M</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#erkam" data-after="Home">Anasayfa</a></li>
+            <li><a href="#hakkımızda" data-after="Service">Hakkımızda</a></li>
+            <li><a href="#galeri" data-after="galeri">Galeri</a></li>
+            <li><a href="#öğretmenlerimiz" data-after="öğretmenlerimiz">Öğretmenlerimiz</a></li>
+            <li><a href="#iletişim" data-after="iletişim">İletişim</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- erkam Section  -->
+  <section id="erkam">
+    <div class="erkam container">
+      <div>
+        <h1>Erkam <span></span></h1>
+        <h1>Kolejleri <span></span></h1>
+        
+        <a href="#iletişim" type="button" class="cta">İletişim</a>
+      </div>
+    </div>
+  </section>
+  <!-- End erkam Section  -->
+
+  <!-- Service Section -->
+  <section id="hakkımızda">
+    <div class="hakkımızda container">
+      <div class="service-top">
+        <h1 class="section-title">Hakkım<span>ı</span>zda</h1>
+        <p>2015'te kurulduk adımız erkam </p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="data:image/png;base64,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"/></div>
+          <h2>Kuruluş</h2>
+          <p>Okulumuz 2015'te Ataşehir'de kurulmuştur</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="data:image/png;base64,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"/></div>
+          <h2>Vizyonumuz</h2>
+          <p>İyi bir eğitim vermek her zaman önceliğimizdir</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="data:image/png;base64,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"/></div>
+          <h2>Misyonumuz</h2>
+          <p>Nebevi eğitim sistemi ile en iyi şekilde eğitim vermekteyiz</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="data:image/png;base64,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"/></div>
+          <h2>Nebevi eğitim sistemi nedir?</h2>
+          <p>Bilmiyom siz söylersiniz</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- galeri Section -->
+  <section id="galeri">
+    <div class="galeri container">
+      <div class="galeri-header">
+        <h1 class="section-title">Gal<span>eri</span></h1>
+      </div>
+      <div class="all-galeri">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>3-A</h1>
+            <h2>3-A sınıfı</h2>
+            <p>Atölye etkinlikleri yapıyoruz</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/gallery-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>4-A</h1>
+            <h2>Çalışkan dörtler</h2>
+            <p>Atölye etkinliklerimiz devam ediyor</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/gallery-5.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>5-A</h1>
+            <h2>5-A</h2>
+            <p>Çuval yarışı yaptık!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/gallery-2.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>1-A</h1>
+            <h2>Mini Mini birler</h2>
+            <p>Osmanlı macunu yedik :)</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/gallery-3.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>2-A</h1>
+            <h2>Çalışkan ikiler</h2>
+            <p>Lego oynuyoruz!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/gallery-4.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End galeri Section -->
+
+  <!-- öğretmenlerimiz Section -->
+  <section id="öğretmenlerimiz">
+    <div class="öğretmenlerimiz container">
+      <div class="col-left">
+        <div class="öğretmenlerimiz-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">Öğretmen<span>lerimiz</span></h1>
+        <h2>Nesibe Karabulut</h2>
+        <p>4. sınıf öğretmenimiz sosyoloji mezunu güler yüzlü...</p>
+        <a href="#" class="cta">Hakkında</a>
+      </div>
+    </div>
+  </section>
+  <section id="öğretmenlerimiz">
+    <div class="öğretmenlerimiz container">
+      <div class="col-left">
+        <div class="öğretmenlerimiz-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        
+        <h2>Büşra</h2>
+        <p>3. sınıf öğretmenimiz sosyoloji mezunu güler yüzlü...</p>
+        <a href="#" class="cta">Hakkında</a>
+      </div>
+    </div>
+  </section>
+  <section id="öğretmenlerimiz">
+    <div class="öğretmenlerimiz container">
+      <div class="col-left">
+        <div class="öğretmenlerimiz-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        
+        <h2>Mehmet</h2>
+        <p>1. sınıf öğretmenimiz sosyoloji mezunu güler yüzlü...</p>
+        <a href="#" class="cta">Hakkında</a>
+      </div>
+    </div>
+  </section>
+  <section id="öğretmenlerimiz">
+    <div class="öğretmenlerimiz container">
+      <div class="col-left">
+        <div class="öğretmenlerimiz-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        
+        <h2>Samet</h2>
+        <p>5. sınıf öğretmenimiz sosyoloji mezunu güler yüzlü...</p>
+        <a href="#" class="cta">Hakkında</a>
+      </div>
+    </div>
+  </section>
+  <!-- End öğretmenlerimiz Section -->
+
+  <!-- iletişim Section -->
+  <section id="iletişim">
+    <div class="iletişim container">
+      <div>
+        <h1 class="section-title">İletişim <span>bilgileri</span></h1>
+      </div>
+      <div class="iletişim-items">
+        <div class="iletişim-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="iletişim-info">
+            <h1>Telefon numarası</h1>
+            <h2>+90 11111111</h2>
+            <h2>+90 1111111</h2>
+          </div>
+        </div>
+        <div class="iletişim-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="iletişim-info">
+            <h1>Email</h1>
+            <h2>erkam@gmail.com</h2>
+            <h2>erkam@gmail.com</h2>
+          </div>
+        </div>
+        <div class="iletişim-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="iletişim-info">
+            <h1>Adres</h1>
+            <h2>Ataşehir, İstanbul, Türkiye</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End iletişim Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>E</span>R<span>KA</span>M</h1>
+      </div>
+      <h2>Eğitimde bir numara</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+      <p>Erkam Kolejleri</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
